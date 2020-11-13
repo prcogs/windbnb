@@ -22,9 +22,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header changeFilter={changeFilter}/>
+      <Header changeFilter={changeFilter} stays={stays}/>
       <ListHouse stays={stays} filter={filter}/>
-      <footer></footer>
+      <footer>Florian Fort @ Dev challenges</footer>
     </div>
   );
 }
